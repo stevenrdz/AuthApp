@@ -15,5 +15,8 @@ export class LoginComponent{
   });
 
   constructor(private fb: FormBuilder) { }
-  login(){}
+  login(){
+    console.log(this.miFormulario.value);
+    console.log(this.miFormulario.valid);
+  }
 }
